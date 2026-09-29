@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.about{
+    display:flex;
+    align-items: center;
+    gap:40px;
+    max-width:900px;
+    margin:90px;
+    padding:0 20px;
+}
+.img{
+    width: 460px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,1);
+}
+.text{
+    text-align: left;
+}
+.text h2{
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-family: 'Qwitcher Grypen';
+    font-size:34px;
+    color: red;
+    font-weight: 800;
+}
+.text p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+.span{
+    font-family: 'Qwitcher Grypen';
+    font-weight: 530;
+    font-size: 32px;
+}
+.home{
+    position: fixed;
+    top:20px;
+    left: 20px;
+    color:#fff;
+}

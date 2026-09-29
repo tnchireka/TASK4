@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('jpbg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.page3{
+    position:relative;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height:500px;
+    box-shadow: 0 0 60px #000;
+    border-radius: 20px;
+}
+.inputbox{
+    position: relative;
+    width:320px;
+    margin: 30px 0;
+}
+.inputbox input{
+    width: 250px;
+    height:40px;
+    font-size: medium;
+    padding:0 10px 0 35px;
+    background: transparent;
+    border:1px solid #fff;
+    border-radius: 5px;
+}
+.inputbox input::placeholder{
+    color:white;
+}
+.forget a{
+    margin:15px;
+    color:white;
+    font-size: medium;
+}
+.btn{
+    position: relative;
+    width: 250px;
+    height:40px;
+    font-size: medium;
+    margin-right:20px;
+    background:palevioletred;
+    border:1px solid #fff;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+.btn:hover{
+    background:transparent;
+    color:white;
+}
+.link{
+    text-align: center;
+    margin:25px;
+    color: #fff;
+}
+.link a{
+    color:palevioletred;
+    font-weight: 700;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+.home{
+    position: fixed;
+    top:20px;
+    left: 20px;
+    color:#fff;
+}

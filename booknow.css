@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('jpbg4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.book{
+    width:520px;
+    padding:30px 35px;
+    border-radius: 210px;
+    box-shadow: 0 0 40px rgba(0,0,0,1);
+}
+.book h2{
+    text-align: center;
+    margin-bottom: 18px;
+    color: white;
+    font-size: 34px;
+    font-family: 'Qwitcher Grypen';
+}
+.book label{
+    display:inline-block;
+    width:170px;
+    font-size: 13px;
+    font-weight: 600;
+    color:white;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    text-align: left;
+}
+.inputbox{
+    padding:8px 12px;
+    border: 1px solid whitesmoke;
+    border-radius: 6px;
+    font-size: 14px;
+    background: white;
+    margin-bottom: 6px;
+    width:240px;
+    height:38px;
+    background: white;
+    color:red;
+}
+.inputbox::placeholder{
+    background: white;
+    color:red;
+}
+.submit{
+    width:100px;
+    padding:10px;
+    margin-top: 15px;
+    background: red;
+    color:white;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor:pointer;
+}
+.submit:hover{
+    background-color: transparent;
+    color:red;
+}
+textarea.inputbox{
+    height:60px;
+    vertical-align: top;
+}
+.home{
+    position: fixed;
+    top:20px;
+    left: 20px;
+    color:#fff;
+}
